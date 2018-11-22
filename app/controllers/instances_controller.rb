@@ -9,4 +9,10 @@ class InstancesController < ApplicationController
 
     render json: @instance, status: :created
   end
+
+  private
+
+  def instance_params
+    params.require(:instance).permit(:host, :version)
+  end
 end
