@@ -1,5 +1,9 @@
 .instance
   %dt.instance__name
     = link_to instance.host, "https://#{instance.host}"
-  %dd.instance__version
-    Running v#{instance.version}
+  %dd.instance__metadata
+    .instance__version
+      Running v#{instance.version}
+    - if user_signed_in?
+      .instance__controls
+        = button_to 'Delete', instance, method: :delete
