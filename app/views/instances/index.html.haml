@@ -2,5 +2,9 @@
   %header.instances__title
     %h1 The Soundstorm Universe
   %main.instances__listing
-    %dl
-      = render @instances
+    - if @instances.any?
+      %dl
+        = render @instances
+    - else
+      %p.instances__empty No instances have been registered.
+

@@ -127,6 +127,8 @@ GEM
     public_suffix (3.0.3)
     puma (3.12.0)
     rack (2.0.6)
+    rack-attack (5.4.2)
+      rack (>= 1.0, < 3)
     rack-cache (1.8.0)
       rack (>= 0.4)
     rack-proxy (0.6.5)
@@ -239,6 +241,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)
+  rack-attack
   rails (~> 5.2.0)
   redis (~> 4.0)
   redis-rack-cache

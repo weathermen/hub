@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  host: 
-  version: MyString
+  host: soundstorm.test
+  version: 1.0.0
 
 two:
-  host: 
-  version: MyString
+  host: soundstorm.social
+  version: 1.0.0

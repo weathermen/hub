@@ -1,9 +1,16 @@
-.instances {}
+.instances {
+  max-width: 960px;
+  margin: 0 auto;
+}
 .instances__title {
   h1 {}
 }
 .instances__listing {
   dl {}
+}
+
+.instances__empty {
+  text-align: center;
 }
 
 .instance {}

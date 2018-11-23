@@ -1,6 +1,6 @@
 /*
- *= require normalize/normalize
+ *= require normalize.css/normalize.css
  *= require_self
  */
 
-@import './instances'
+@import './*';

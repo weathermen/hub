@@ -27,6 +27,8 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 # Use Devise for admin authentication
 gem 'devise'
+# Protect against malicious clients
+gem 'rack-attack'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
